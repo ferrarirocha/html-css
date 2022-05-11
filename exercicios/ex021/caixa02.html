@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tag</title>
+    <style>
+        body {
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            background-color: dimgray;
+        }
+        header{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+        nav{
+            background-color: rgb(107, 107, 107);
+            padding: 3px;
+            box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.301)  ;
+
+        }
+        nav > a{
+            text-decoration: none;
+            color: rgb(255, 255, 255);
+            font-weight: bold;
+            margin-right: 30px;
+        }
+        main{
+            background-color: rgb(255, 255, 255);
+            padding: 10px;
+            margin: 10px;
+            border-radius: 20px;
+        }
+
+        article{
+            background-color: rgb(143, 141, 141);
+            padding: 5px;
+
+        }
+        article > aside {
+            background-color: rgb(74, 77, 83);
+
+
+        }
+        footer{
+            background-color: rgb(70, 70, 70);
+            color: rgb(255, 255, 255);
+            text-align: center;
+            padding: 4px;
+            margin: 0px;
+        }
+        footer > p {
+            margin: 0px;
+        }
+        div#bola{
+            height: 100px;
+            width: 100px;
+            margin: 10px;
+            background-color: aqua;
+            border-radius: 50%;
+        }
+    </style>
+</head>
+<body>
+   <header>
+<h1>Meu Site</h1>
+<nav>
+    <a href="#">Link</a>
+    <a href="#">Link</a>
+    <a href="#">Link</a>
+    <a href="#">Link</a>
+</nav>
+   </header>
+   <main>
+<section id="assuntos">
+    <p>Esportes  Politicas Tecnologia</p>
+
+</section>
+<section id="noticias">
+    <article>
+        <h2>Noticias sobre brasil</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati quod, aliquam qui voluptatibus odio, quam sunt saepe velit sint impedit ducimus laborum temporibus blanditiis nihil rerum dignissimos accusantium dolorum officia.</p>
+        <aside>
+            <p>Artigo escrito por rafael</p>
+        </aside>
+
+    </article>
+    <article>
+
+    </article>
+</section>
+   </main>
+   <footer>
+<p>Desenvolvido pelo Rafael Ferrari</p>
+   </footer>
+   <div id="bola"></div>
+</body>
+</html>
